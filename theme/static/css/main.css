@@ -403,7 +403,7 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(0, 0, 0, 0.6); }
   .location * {
     position: relative; }
   .location svg {
@@ -419,6 +419,14 @@ a:hover {
   .location .rates {
     margin-top: 50px;
     margin-bottom: 50px; }
+    .location .rates h2 {
+      font-size: 1em; }
+    .location .rates .subtitle {
+      display: block;
+      margin: 10px; }
+    .location .apto {
+
+    }
   .location .tax {
     float: left;
     width: 50%; }

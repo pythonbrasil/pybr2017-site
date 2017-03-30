@@ -1,8 +1,8 @@
 # **PythonBrasil[12] . Site Oficial**
 
-[![Build Status](https://travis-ci.org/pythonbrasil/pythonbrasil12-site.svg?branch=master)](https://travis-ci.org/pythonbrasil/pythonbrasil12-site)
+[![Build Status](https://travis-ci.org/pythonbrasil/pythonbrasil13-site.svg?branch=master)](https://travis-ci.org/pythonbrasil/pythonbrasil13-site)
 
-Esse é o portal oficial da Python Brasil 12, criado de maneira colaborativa.
+Esse é o portal oficial da Python Brasil 13, criado de maneira colaborativa.
 
 
 ## **Contribuições**
@@ -10,7 +10,7 @@ Esse é o portal oficial da Python Brasil 12, criado de maneira colaborativa.
 Se você tem interesse de contribuir com o site faça o clone do repositório da seguinte forma:
 
 ```
-$ git clone git@github.com:pythonbrasil/pythonbrasil12-site.git
+$ git clone git@github.com:pythonbrasil/pythonbrasil13-site.git
 ```
 
 
@@ -48,8 +48,8 @@ $ export WORKON_HOME="~/venv"
 $ . /usr/bin/virtualenvwrapper.sh
 # OR
 $ . /usr/local/bin/virtualenvwrapper.sh
-$ mkvirtualenv pybr12-site
-$ workon pybr12-site && pip install -r requirements.txt
+$ mkvirtualenv pybr13-site
+$ workon pybr13-site && pip install -r requirements.txt
 ```
 
 #### **Utilizando Ansible**
@@ -66,7 +66,7 @@ $ make ansible-setup
 
 Após a criação do ambiente (manualmente ou via ansible), para compilar o site execute o seguinte comando:
 ```
-$ workon pybr12-site
+$ workon pybr13-site
 $ make html serve
 ```
 
