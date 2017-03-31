@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'PythonBrasil'
 SITENAME = u'Python Brasil 13'
-SITEURL = ''
+SITEURL = 'http://2017.pythonbrasil.org.br'
 SITE_DESCRIPTION = "13ª Conferência Brasileira da Comunidade Python. Seis " +\
     "dias de Tutoriais, palestras e sprints sobre a linguagem Python."
 

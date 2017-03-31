@@ -3,3 +3,4 @@ output/
 node_modules/
 .sass-cache/
 pelican-plugins
+venv/
