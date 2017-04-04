@@ -629,11 +629,6 @@ a:hover {
     float: left; }
   .follow-us .fb-follow {
     margin-right:15px;}
-  @media (max-width: 767px) {
-    .follow-us {
-      left: 25px;
-    }
-  }
 
 .followus {
   padding: 4em 0; }
