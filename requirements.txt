@@ -10,7 +10,7 @@ markdown
 markupsafe
 mdx-video
 paramiko
-pelican==3.6
+pelican==3.7
 pillow==2.6.1
 pycrypto
 pygments
