@@ -621,6 +621,15 @@ a:hover {
   .volunteers a {
     color: #1B77D8; }
 
+.follow-us {
+  position:absolute;
+  bottom:20px;
+  right:15px; }
+  .follow-us > * {
+    float: left; }
+  .follow-us .fb-follow {
+    margin-right:15px;}
+
 .followus {
   padding: 4em 0; }
   .followus h1 {
