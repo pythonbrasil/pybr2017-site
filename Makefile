@@ -87,7 +87,7 @@ publish: theme
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
+	git push origin $(GITHUB_PAGES_BRANCH) -f
 
 ping:
 	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://2016.pythonbrasil.org.br/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
