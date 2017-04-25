@@ -1,0 +1,39 @@
+.schedule-activities-projects {
+  margin: -20px 0 20px 0;
+  text-align: center;
+}
+.schedule-activities-projects p {
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.schedule-activities-projects a {
+  display: inline-block;
+  max-width: 100%;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-family: "Panton Bold";
+  font-size: .875em;
+  color: #fff;
+  background-color: #F0CB1F;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  padding: 0 1em;
+  margin: 0 3px;
+}
+.schedule-activities-projects a:hover {
+  background-color: rgba(240, 203, 31, 0.8);
+  text-decoration: none;
+}
+/* @Override main.css */
+.schedule .schedule-description {
+  color: #333;
+  text-align: center;
+  margin: 15px 0 40px;
+  font-size: 1.1em;
+}
