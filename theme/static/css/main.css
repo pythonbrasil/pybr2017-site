@@ -621,10 +621,16 @@ a:hover {
   .volunteers a {
     color: #1B77D8; }
 
+@media (max-width: 639px) {
+  .follow-us {
+    display: none;
+  }
+}
+
 .follow-us {
   position:absolute;
-  bottom:20px;
-  right:15px; }
+  bottom: 55px;
+  right: 20px; }
   .follow-us > * {
     float: left; }
   .follow-us .fb-follow {
