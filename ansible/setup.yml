@@ -1,5 +1,5 @@
 ---
-- name: Setup environment for developing the PythonBrasil12 Site (Pelican)
+- name: Setup environment for developing the PythonBrasil Site (Pelican)
   hosts: localhost
   connection: localhost
 
@@ -47,16 +47,16 @@
       tags: virtualenv
 
     - name: Remove any old virtualenv with this name
-      shell: "{{ source_mkvirtualenv }} && rmvirtualenv pybr12-site"
+      shell: "{{ source_mkvirtualenv }} && rmvirtualenv pybr13-site"
       ignore_errors: True
       register: workon_home
       tags: virtualenv
 
     - name: Creates virtualenv
-      shell: "{{ source_mkvirtualenv }} && mkvirtualenv pybr12-site"
+      shell: "{{ source_mkvirtualenv }} && mkvirtualenv pybr13-site"
       tags: virtualenv
 
     - name: Install requirements
-      shell: "{{ source_mkvirtualenv }} && workon pybr12-site && pip install -r ../requirements.txt"
+      shell: "{{ source_mkvirtualenv }} && workon pybr13-site && pip install -r ../requirements.txt"
       tags: virtualenv
    

@@ -10,7 +10,7 @@ RUN apt-get -q update && apt-get -q install -y rubygems
 RUN gem install -q sass
 
 
-ENV ROOT_DIR /opt/pythonbrasil12-site
+ENV ROOT_DIR /opt/pythonbrasil-site
 ENV VENV_BASE   "${ROOTDIR}/venv"
 ENV VENV_ROOT   "${VENV_BASE}/pybr12-site"
 ENV VENV_BIN    "${VENV_ROOT}/bin/"
