@@ -7,9 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-    <meta name="og:image" content="http://2017.pythonbrasil.org.br/images/logo-python-bh.png">
-    <meta name="twitter:image" content="http://2017.pythonbrasil.org.br/images/logo-python-bh.png">
     <meta name="description" content="{% block description %}{{ SITE_DESCRIPTION }}{% endblock %}">
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="{{ SITENAME }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://2017.pythonbrasil.org.br" />
+    <meta property="og:description" content="{{ SITE_DESCRIPTION }}" />
+    <meta property="og:image" content="http://2017.pythonbrasil.org.br/images/logo-python-bh.png">
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ SITENAME }} />
+    <meta name="twitter:description" content="{{ SITE_DESCRIPTION }}" />
+    <meta name="twitter:image" content="http://2017.pythonbrasil.org.br/images/logo-python-bh.png">
 
     {% block style %}
     <link rel="stylesheet" href="/theme/css/main.css">
@@ -23,7 +34,7 @@
     {% endblock %}
     <footer class="footer">
       <div class="row">
-        <p>PythonBrasil is a non-proﬁt volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
+        <p>PythonBrasil is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
 
         <img src="/images/logo-gray.svg" alt="Python Brazil - Logo">
       </div>
