@@ -3,6 +3,6 @@ site:
   ports:
     - 8000:8000
   volumes:
-    - .:/opt/pythonbrasil12-site/site
+    - .:/opt/pythonbrasil-site/site
   environment:
     DEBUG: 1
