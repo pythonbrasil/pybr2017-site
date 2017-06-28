@@ -3,10 +3,13 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'PythonBrasil'
-SITENAME = u'Python Brasil 13'
+SITENAME = u'PythonBrasil 13'
 SITEURL = 'http://2017.pythonbrasil.org.br'
-SITE_DESCRIPTION = "13ª Conferência Brasileira da Comunidade Python. Seis " +\
-    "dias de Tutoriais, palestras e sprints sobre a linguagem Python."
+SITE_DESCRIPTION = (
+    "13ª Conferência Brasileira da Comunidade Python. São seis dias de "
+    "atividades! Palestras de 6 a 8 de Outubro. Tutoriais e sprints de "
+    "9 a 11 de Outubro."
+)
 
 PATH = 'content'
 
