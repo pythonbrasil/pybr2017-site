@@ -37,3 +37,7 @@
   margin: 15px 0 40px;
   font-size: 1.1em;
 }
+
+.speakers .speakers-list .speaker {
+  width: calc(30% - 5px);
+}
