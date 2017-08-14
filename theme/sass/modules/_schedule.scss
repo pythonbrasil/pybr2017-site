@@ -1,5 +1,6 @@
 .schedule {
   padding: 4em 0;
+  background-color: #fff;
 
   h1 {
     color: #333;
@@ -121,23 +122,23 @@
       }
 
       .track-keynote {
-        background-color: #777;
-      }
-
-      .track-lightning-talk {
         background-color: #d9534f;
       }
 
-      .track-career {
+      .track-lightning-talk {
         background-color: #337ab7;
       }
 
-      .track-web {
+      .track-career {
         background-color: #f0ad4e;
       }
 
-      .track-pydata {
+      .track-web {
         background-color: #5bc0de;
+      }
+
+      .track-pydata {
+        background-color: #777;
       }
 
       .track-beginners {
@@ -147,6 +148,23 @@
       .track-tutorials {
         background-color: #f1c40f;
       }
+
+      .track-auditorio1 {
+        background-color: #f1c40f;
+      }
+
+      .track-auditorio2 {
+        background-color: #5bc0de;
+      }
+
+      .track-auditorio3 {
+        background-color: #5cb85c;
+      }
+
+      .track-foyer {
+        background-color: #777;
+      }
+
 
       .talk {
         color: $blue;
