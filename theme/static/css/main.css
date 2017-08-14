@@ -363,14 +363,15 @@ a:hover {
       margin: 15px;
       width: calc(25% - 30px); }
       .speakers .speakers-list .speaker .photo {
-        width: 100%;
         background-color: #eaeaea;
         background-image: url("../images/speaker.svg");
         background-size: 50% 50%;
         background-position: center;
         background-repeat: no-repeat; }
         .speakers .speakers-list .speaker .photo img {
-          width: 100%; }
+          height: 220px;
+          display: block;
+          margin: auto auto; }
       .speakers .speakers-list .speaker .speaker-link {
         text-decoration: none; }
       .speakers .speakers-list .speaker .speaker-name {
