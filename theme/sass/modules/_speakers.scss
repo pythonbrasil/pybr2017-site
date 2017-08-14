@@ -22,8 +22,6 @@
       width: calc(25% - 30px);
 
       .photo {
-        background-color: #eaeaea;
-        @include icon("../images/speaker.svg", 50% 50%);
 
         img {
           height: 220px;
