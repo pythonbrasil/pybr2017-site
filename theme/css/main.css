@@ -1,19 +1,15 @@
 @font-face {
   font-family: "Panton Bold";
   src: url("../fonts/Panton-BlackCaps.otf"); }
-
 @font-face {
   font-family: "Panton Bold Italic";
   src: url("../fonts/Panton-BlackitalicCaps.otf"); }
-
 @font-face {
   font-family: "Panton Light";
   src: url("../fonts/Panton-LightCaps.otf"); }
-
 @font-face {
   font-family: "Panton Light Italic";
   src: url("../fonts/Panton-LightitalicCaps.otf"); }
-
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-family: "Panton Bold"; }
@@ -53,19 +49,15 @@ a:hover {
 @font-face {
   font-family: "Panton Bold";
   src: url("../fonts/Panton-BlackCaps.otf"); }
-
 @font-face {
   font-family: "Panton Bold Italic";
   src: url("../fonts/Panton-BlackitalicCaps.otf"); }
-
 @font-face {
   font-family: "Panton Light";
   src: url("../fonts/Panton-LightCaps.otf"); }
-
 @font-face {
   font-family: "Panton Light Italic";
   src: url("../fonts/Panton-LightitalicCaps.otf"); }
-
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-family: "Panton Bold"; }
@@ -148,22 +140,18 @@ a:hover {
   .responsive-table {
     overflow: auto;
     width: 100%; } }
-
 .link {
   color: #1D8BF6; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   html, body {
     font-size: 15px; } }
-
 @media (min-width: 640px) and (max-width: 767px) {
   html, body {
     font-size: 14px; } }
-
 @media (min-width: 480px) and (max-width: 639px) {
   html, body {
     font-size: 13px; } }
-
 @media (min-width: 320px) and (max-width: 479px) {
   html, body {
     font-size: 12px; }
@@ -173,11 +161,9 @@ a:hover {
       height: 10em; }
     html .footer img, body .footer img {
       padding-right: 1em; } }
-
 @media (max-width: 319px) {
   html, body {
     font-size: 10px; } }
-
 .btn, .welcome .info .register {
   display: inline-block;
   max-width: 100%;
@@ -362,15 +348,10 @@ a:hover {
       display: inline-block;
       margin: 15px;
       width: calc(25% - 30px); }
-      .speakers .speakers-list .speaker .photo {
-        width: 100%;
-        background-color: #eaeaea;
-        background-image: url("../images/speaker.svg");
-        background-size: 50% 50%;
-        background-position: center;
-        background-repeat: no-repeat; }
-        .speakers .speakers-list .speaker .photo img {
-          width: 100%; }
+      .speakers .speakers-list .speaker .photo img {
+        height: 220px;
+        display: block;
+        margin: auto auto; }
       .speakers .speakers-list .speaker .speaker-link {
         text-decoration: none; }
       .speakers .speakers-list .speaker .speaker-name {
@@ -403,7 +384,7 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6); }
+    background-color: rgba(0, 0, 0, 0.3); }
   .location * {
     position: relative; }
   .location svg {
@@ -419,14 +400,6 @@ a:hover {
   .location .rates {
     margin-top: 50px;
     margin-bottom: 50px; }
-    .location .rates h2 {
-      font-size: 1em; }
-    .location .rates .subtitle {
-      display: block;
-      margin: 10px; }
-    .location .apto {
-
-    }
   .location .tax {
     float: left;
     width: 50%; }
@@ -621,21 +594,6 @@ a:hover {
   .volunteers a {
     color: #1B77D8; }
 
-@media (max-width: 639px) {
-  .follow-us {
-    display: none;
-  }
-}
-
-.follow-us {
-  position:absolute;
-  bottom: 55px;
-  right: 20px; }
-  .follow-us > * {
-    float: left; }
-  .follow-us .fb-follow {
-    margin-right:15px;}
-
 .followus {
   padding: 4em 0; }
   .followus h1 {
@@ -671,3 +629,5 @@ a:hover {
     transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%); }
+
+/*# sourceMappingURL=main.css.map */
