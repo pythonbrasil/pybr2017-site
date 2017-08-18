@@ -415,7 +415,8 @@ a:hover {
         margin-bottom: 2em; } }
 
 .schedule {
-  padding: 4em 0; }
+  padding: 4em 0;
+  background-color: #fff; }
   .schedule h1 {
     color: #333;
     text-align: center; }
@@ -498,19 +499,27 @@ a:hover {
         vertical-align: baseline;
         border-radius: .25em; }
       .schedule .room .lecture .track-keynote {
-        background-color: #777; }
-      .schedule .room .lecture .track-lightning-talk {
         background-color: #d9534f; }
-      .schedule .room .lecture .track-career {
+      .schedule .room .lecture .track-lightning-talk {
         background-color: #337ab7; }
-      .schedule .room .lecture .track-web {
+      .schedule .room .lecture .track-career {
         background-color: #f0ad4e; }
-      .schedule .room .lecture .track-pydata {
+      .schedule .room .lecture .track-web {
         background-color: #5bc0de; }
+      .schedule .room .lecture .track-pydata {
+        background-color: #777; }
       .schedule .room .lecture .track-beginners {
         background-color: #5cb85c; }
       .schedule .room .lecture .track-tutorials {
         background-color: #f1c40f; }
+      .schedule .room .lecture .track-auditorio1 {
+        background-color: #f1c40f; }
+      .schedule .room .lecture .track-auditorio2 {
+        background-color: #5bc0de; }
+      .schedule .room .lecture .track-auditorio3 {
+        background-color: #5cb85c; }
+      .schedule .room .lecture .track-foyer {
+        background-color: #777; }
       .schedule .room .lecture .talk {
         color: #1D8BF6;
         font-family: "Panton Light";
