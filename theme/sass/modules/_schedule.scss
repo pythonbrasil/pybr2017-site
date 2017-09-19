@@ -63,8 +63,22 @@
       font-weight: bold;
     }
 
+    .django-day-local {
+      color: #333;
+      font-weight: bold;
+    }
+
     .day-description {
       margin: 0 0 50px 0;
+
+      a {
+        color: #1D8BF6;
+      }
+    }
+
+    .django-day-description {
+      margin: 0 0 5px 0;
+      color: #333;
 
       a {
         color: #1D8BF6;
