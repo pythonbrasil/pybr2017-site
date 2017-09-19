@@ -6,7 +6,7 @@ RUN apt-get -q update && apt-get -q install -y libxml2-dev libxslt1-dev python-d
 RUN apt-get -q update && apt-get -q install -y nodejs npm
 RUN npm install gulp gulp-uglify gulp-concat &>> /dev/build.log
 
-RUN apt-get -q update && apt-get -q install -y rubygems
+RUN apt-get -q update && apt-get -q install -y rubygems ruby-dev
 RUN gem install -q sass
 
 
