@@ -455,17 +455,9 @@ a:hover {
       color: #333;
       padding-left: 1.5em;
       font-weight: bold; }
-    .schedule .room .django-day-local {
-      color: #333;
-      font-weight: bold; }
     .schedule .room .day-description {
       margin: 0 0 50px 0; }
       .schedule .room .day-description a {
-        color: #1D8BF6; }
-    .schedule .room .django-day-description {
-      margin: 0 0 5px 0;
-      color: #333; }
-      .schedule .room .django-day-description a {
         color: #1D8BF6; }
     .schedule .room:before {
       content: "";
