@@ -103,6 +103,6 @@ Endereço: Av. Afonso Pena, 2881 - Centro, Belo Horizonte - MG
 
 Endereço: Shopping Pátio Savassi - Av. do Contorno, 6061, Piso L3 - São Pedro - Belo Horizonte, MG
 
-**Black coffee boulevard**
+**Mr. Black coffee boulevard**
 
 Endereço: Av dos Andradas, 3000 | Loja 3008, Belo Horizonte, Minas Gerais 30260-070, Brasil
