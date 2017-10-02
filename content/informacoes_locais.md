@@ -1,6 +1,6 @@
 # Restaurantes:
 
-\* Oferece opções veganas/vegetarianas
+\* Oferece opções veganas
 
 **Pão de Queijaria**
 
