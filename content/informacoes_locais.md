@@ -80,7 +80,7 @@ Endereço: Maleta, Avenida Augusto de Lima, 233 - Sobreloja 20
 
 Restaurante vegetariano/vegano em Belo Horizonte. Opções de almoço e hamburgers.
 
-**Mr. Hoppy Tiradentes\***
+**Mr. Hoppy Tiradentes**
 
 Endereço: Praça Tiradentes, 41 - Funcionários, Belo Horizonte - MG, 30130-020
 
@@ -92,6 +92,17 @@ Endereço: R. da Bahia, 1416 - Lourdes, Belo Horizonte - MG
 
 Cerveja gelada, música boa, ambiente divertido.
 
+**Wals GastroPub**
+
+Endereço: R. Levindo Lopes, 358 - Savassi, Belo Horizonte - MG
+
+Diversos tipos de chopes e cervejas artesanais, além de petiscos e pratos, em ambiente rústico e descontraído.
+
+**Svärten Mugg Taverna**
+
+Endereço: R. Santa Rita Durão, 1056 - Savassi, Belo Horizonte - MG
+
+Cervejas especiais, drinks e comidas típicas nórdica/viking e germânica em belo horizonte. Preço um mais elevado.
 
 # Espaços para trabalhar:
 
