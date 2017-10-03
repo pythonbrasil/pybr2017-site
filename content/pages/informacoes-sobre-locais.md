@@ -160,3 +160,44 @@ Endereço: Shopping Pátio Savassi - Av. do Contorno, 6061, Piso L3 - São Pedro
 Endereço: Av dos Andradas, 3000 | Loja 3008, Belo Horizonte, Minas Gerais 30260-070, Brasil
 
 [Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d7253370-Reviews-Mr_Black_Cafe_Gourmet_Boulevard_Shopping-Belo_Horizonte_State_of_Minas_Gerais.html)
+
+- **Wals GastroPub**
+
+Endereço: R. Levindo Lopes, 358 - Savassi, Belo Horizonte - MG
+
+Diversos tipos de chopes e cervejas artesanais, além de petiscos e pratos, em ambiente rústico e descontraído.
+
+[Link](https://www.tripadvisor.com/Restaurant_Review-g303374-d8830710-Reviews-Wals_Gastropub-Belo_Horizonte_State_of_Minas_Gerais.html)
+
+- **Svärten Mugg Taverna**
+
+Endereço: R. Santa Rita Durão, 1056 - Savassi, Belo Horizonte - MG
+
+Cervejas especiais, drinks e comidas típicas nórdica/viking e germânica em belo horizonte. Preço um mais elevado.
+
+[Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d10297004-Reviews-Svarten_Mugg_Taverna-Belo_Horizonte_State_of_Minas_Gerais.html)
+
+# Baladinhas:
+
+- **Karaokê - Bar da Cácia**
+
+Endereço: Rua Rio de Janeiro, 1411. Bairro Lourdes, Belo Horizonte - MG
+Telefone: (31) 3222-3260
+
+Karokê bastante animado e com cerveja gelada. Recebe bem todos os públicos mas com destaque o público LGBT.
+
+[Link](https://www.facebook.com/pages/Bar-da-C%C3%A1cia/199640383410644)
+
+- **O Mercado**
+
+Endereço: Av. Olegário Maciel, 742. Belo Horizonte - MG
+Telefone: (31) 3271-9181
+
+[Link](https://www.facebook.com/mercadobelohorizonte/)
+
+- **NECUP**
+
+Endereço: Av. Nossa Senhora de Fátima, 3312. Bairro Prado, Belo Horizonte - MG
+Telefone: (31) 3295-0716
+
+[Link](https://www.facebook.com/necup)
