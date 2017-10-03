@@ -1,6 +1,6 @@
 # Restaurantes:
 
-\* Oferece opções veganas/vegetarianas
+\* Oferece opções veganas
 
 **Pão de Queijaria**
 
@@ -122,6 +122,17 @@ Cerveja gelada, música boa, ambiente divertido.
 
 [Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d5648529-Reviews-Cafe_Cultura-Belo_Horizonte_State_of_Minas_Gerais.html)
 
+**Wals GastroPub**
+
+Endereço: R. Levindo Lopes, 358 - Savassi, Belo Horizonte - MG
+
+Diversos tipos de chopes e cervejas artesanais, além de petiscos e pratos, em ambiente rústico e descontraído.
+
+**Svärten Mugg Taverna**
+
+Endereço: R. Santa Rita Durão, 1056 - Savassi, Belo Horizonte - MG
+
+Cervejas especiais, drinks e comidas típicas nórdica/viking e germânica em belo horizonte. Preço um mais elevado.
 
 # Espaços para trabalhar:
 
