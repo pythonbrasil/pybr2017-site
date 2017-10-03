@@ -1,3 +1,6 @@
+Title: Informações sobre locais
+Date: 2017-10-03
+
 # Restaurantes:
 
 \* Oferece opções veganas
