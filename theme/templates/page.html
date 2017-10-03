@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="/theme/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ SITE_DESCRIPTION }}{% endblock %}">
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="{{ SITENAME }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://2017.pythonbrasil.org.br" />
+    <meta property="og:description" content="{{ SITE_DESCRIPTION }}" />
+    <meta property="og:image" content="http://2017.pythonbrasil.org.br/images/logo-python-bh.png">
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ SITENAME }}" />
+    <meta name="twitter:description" content="{{ SITE_DESCRIPTION }}" />
+    <meta name="twitter:image" content="http://2017.pythonbrasil.org.br/images/logo-python-bh.png">
+
+    {% block style %}
+    <link rel="stylesheet" href="/theme/css/main.css">
+    <link rel="stylesheet" href="/theme/css/pybr13.css">
+    {% endblock %}
+  </head>
+
+  <body>
+  <section class="welcome">
+    <div class="row">
+      <header class="header">
+        <div class="menu-scroll">
+          <div class="center">
+            <div class="logo">
+              <a href="http://2017.pythonbrasil.org.br" target="_self">
+                <h1>
+                  <img src="/images/logo.svg" alt="Python Logo">
+                  <span><strong>Python</strong>Brasil 2017</span>
+                </h1>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="http://2017.pythonbrasil.org.br" target="_self">
+            <h1>
+              <img src="/images/logo.svg" alt="Python Logo">
+              <span><strong>Python</strong>Brasil 2017</span>
+            </h1>
+          </a>
+        </div>
+      </header>
+    </div>
+  </section>
+  
+
+  <div class="main about">
+    <h1 title="{{ page.title }}">{{ page.title }}</h1>
+    <div class="content">
+      {{ page.content }}
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="row">
+      <p>PythonBrasil is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
+
+      <img src="/images/logo-gray.svg" alt="Python Brazil - Logo">
+    </div>
+  </footer>
+  <!-- Facebook script -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=287235031726619";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Twitter script -->
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
+  {% block javascript %}
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="/theme/js/main.js"></script>
+  {% endblock %}
+  </body>
+</html>

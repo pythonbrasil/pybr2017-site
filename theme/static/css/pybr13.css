@@ -41,3 +41,25 @@
 .speakers .speakers-list .speaker {
   width: calc(30% - 5px);
 }
+/* Content about places */
+.about {
+  padding: 20px 60px;
+}
+.about h1 {
+  color: #000;
+}
+.about .content {
+  color: #000;
+  font-family: 'Comic Sans MS';
+}
+.about .content h1 {
+  font-size: 1.5em;
+  margin: 2em 0 1em;
+}
+.about .content li {
+  margin: 15px 10px;
+}
+.about .content li strong {
+  font-size: 16px;
+  font-weight: bold;
+}
