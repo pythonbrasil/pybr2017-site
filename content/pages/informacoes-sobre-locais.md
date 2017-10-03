@@ -125,6 +125,21 @@ Cerveja gelada, música boa, ambiente divertido.
 
 [Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d5648529-Reviews-Cafe_Cultura-Belo_Horizonte_State_of_Minas_Gerais.html)
 
+- **Wals GastroPub**
+
+Endereço: R. Levindo Lopes, 358 - Savassi, Belo Horizonte - MG
+
+Diversos tipos de chopes e cervejas artesanais, além de petiscos e pratos, em ambiente rústico e descontraído.
+
+[Link](https://www.tripadvisor.com/Restaurant_Review-g303374-d8830710-Reviews-Wals_Gastropub-Belo_Horizonte_State_of_Minas_Gerais.html)
+
+- **Svärten Mugg Taverna**
+
+Endereço: R. Santa Rita Durão, 1056 - Savassi, Belo Horizonte - MG
+
+Cervejas especiais, drinks e comidas típicas nórdica/viking e germânica em belo horizonte. Preço um mais elevado.
+
+[Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d10297004-Reviews-Svarten_Mugg_Taverna-Belo_Horizonte_State_of_Minas_Gerais.html)
 
 # Espaços para trabalhar:
 
@@ -145,18 +160,3 @@ Endereço: Shopping Pátio Savassi - Av. do Contorno, 6061, Piso L3 - São Pedro
 Endereço: Av dos Andradas, 3000 | Loja 3008, Belo Horizonte, Minas Gerais 30260-070, Brasil
 
 [Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d7253370-Reviews-Mr_Black_Cafe_Gourmet_Boulevard_Shopping-Belo_Horizonte_State_of_Minas_Gerais.html)
-- **Wals GastroPub**
-
-Endereço: R. Levindo Lopes, 358 - Savassi, Belo Horizonte - MG
-
-Diversos tipos de chopes e cervejas artesanais, além de petiscos e pratos, em ambiente rústico e descontraído.
-
-[Link](https://www.tripadvisor.com/Restaurant_Review-g303374-d8830710-Reviews-Wals_Gastropub-Belo_Horizonte_State_of_Minas_Gerais.html)
-
-- **Svärten Mugg Taverna**
-
-Endereço: R. Santa Rita Durão, 1056 - Savassi, Belo Horizonte - MG
-
-Cervejas especiais, drinks e comidas típicas nórdica/viking e germânica em belo horizonte. Preço um mais elevado.
-
-[Link](https://www.tripadvisor.com.br/Restaurant_Review-g303374-d10297004-Reviews-Svarten_Mugg_Taverna-Belo_Horizonte_State_of_Minas_Gerais.html)
