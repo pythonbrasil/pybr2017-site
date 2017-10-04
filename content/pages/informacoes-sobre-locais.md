@@ -201,3 +201,24 @@ Endereço: Av. Nossa Senhora de Fátima, 3312. Bairro Prado, Belo Horizonte - MG
 Telefone: (31) 3295-0716
 
 [Link](https://www.facebook.com/necup)
+
+
+# Cerveja Artesanal:
+
+- **Ateliê Wäls**
+Endereço: Rua Gabriela de Melo, 566, Olhos D'água
+Telefone: (31) 3197-2450
+Funcionamento: Terça a sexta: 17h-00h | Sábado: 12h-01h | Domingo: 12h-19h
+[Link](http://www.wals.com.br/app/webroot/atelie/)
+
+- **Cervejaria Backer - Templo Cervejeiro**
+Endereço: Rua Santa Rita, 220, Olhos d'Água
+Funcionamento: Terça 11h30-15h | Quarta e Quinta 11h30-15h30 e 18h | Sexta e Sábado 11h30-01h | Domingo 11h-16h
+[Link](http://www.cervejariabacker.com.br/templo-do-cervejeiro)
+
+- **Uamii - Brew Pub**
+Endereço: Rua Grão Mogol, 1176, Sion 
+Telefone: (31) 3285-3435 
+[Link](https://www.facebook.com/Uaimii/)
+
+
