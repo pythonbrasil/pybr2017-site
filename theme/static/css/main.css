@@ -347,7 +347,7 @@ a:hover {
       vertical-align: top;
       display: inline-block;
       margin: 15px;
-      width: calc(25% - 30px); }
+      width: calc(30% - 5px); }
       .speakers .speakers-list .speaker .photo img {
         height: 220px;
         display: block;
@@ -362,10 +362,10 @@ a:hover {
         color: #333; }
       .speakers .speakers-list .speaker .link {
         font-style: italic; }
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     .speakers .speakers-list .speaker {
       width: calc(50% - 30px); } }
-  @media (max-width: 319px) {
+  @media (max-width: 560px) {
     .speakers .speakers-list .speaker {
       width: 100%; } }
 
@@ -455,9 +455,17 @@ a:hover {
       color: #333;
       padding-left: 1.5em;
       font-weight: bold; }
+    .schedule .room .django-day-local {
+      color: #333;
+      font-weight: bold; }
     .schedule .room .day-description {
       margin: 0 0 50px 0; }
       .schedule .room .day-description a {
+        color: #1D8BF6; }
+    .schedule .room .django-day-description {
+      margin: 0 0 5px 0;
+      color: #333; }
+      .schedule .room .django-day-description a {
         color: #1D8BF6; }
     .schedule .room:before {
       content: "";

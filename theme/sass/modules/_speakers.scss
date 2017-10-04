@@ -19,7 +19,7 @@
       vertical-align: top;
       display: inline-block;
       margin: 15px;
-      width: calc(25% - 30px);
+      width: calc(30% - 5px);
 
       .photo {
 
@@ -50,13 +50,13 @@
     }
   }
 
-  @media(max-width: 767px) {
+  @media(max-width: 1023px) {
     .speakers-list .speaker {
       width: calc(50% - 30px);
     }
   }
 
-  @media(max-width: 319px) {
+  @media(max-width: 560px) {
     .speakers-list .speaker {
       width: 100%;
     }
