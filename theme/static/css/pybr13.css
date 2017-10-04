@@ -38,9 +38,6 @@
   font-size: 1.1em;
 }
 
-.speakers .speakers-list .speaker {
-  width: calc(30% - 5px);
-}
 /* Content about places */
 .about {
   padding: 20px 60px;
