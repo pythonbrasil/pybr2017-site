@@ -45,7 +45,7 @@ def deploy():
     cleanup()
 
     final = time.time()
-    puts('execution finished in %.2fs' % (final - start))
+    puts('deploy execution finished in %.2fs' % (final - start))
 
 
 def rollback():
