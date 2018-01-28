@@ -27,6 +27,7 @@ def production():
     env.releases_limit = 3
     env.git_origin = 'https://github.com/pythonbrasil/pythonbrasil13-site.git'
     env.git_branch = 'master'
+    env.virtual_environment = 'source /srv/2017.pythonbrasil.org.br/activate'
 #
 # end available environments
 #
@@ -40,7 +41,9 @@ def deploy():
 
     setup()
     checkout()
+    puts('start pelican')
     run_pelican()
+    puts('end pelican')
     releases()
     symlink()
     cleanup()
@@ -50,7 +53,8 @@ def deploy():
 
 
 def run_pelican():
-    local('workon pelican;cd {};make html'.format(env.current_release))
+    local('{};cd {};make html'.format(
+        env.virtual_environment, env.current_release))
 
 
 def rollback():
