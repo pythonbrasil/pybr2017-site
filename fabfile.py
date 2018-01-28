@@ -54,8 +54,8 @@ def deploy():
 
 def run_pelican():
     local('echo $USER')
-    local('{};cd {};make html'.format(
-        env.virtual_environment, env.current_release))
+    # local('{};cd {};make html'.format(
+        # env.virtual_environment, env.current_release))
 
 
 def rollback():
