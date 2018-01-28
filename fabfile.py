@@ -53,7 +53,7 @@ def deploy():
 
 
 def run_pelican():
-    local('echo $USER')
+    local('echo $USER > /srv/2017.pythonbrasil.org.br/www/user')
     # local('{};cd {};make html'.format(
         # env.virtual_environment, env.current_release))
 
