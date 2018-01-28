@@ -54,8 +54,9 @@ def deploy():
 
 def run_pelican():
     local('echo $USER > /srv/2017.pythonbrasil.org.br/www/user')
-    # local('{};cd {};make html'.format(
-        # env.virtual_environment, env.current_release))
+    local('python --version > /srv/2017.pythonbrasil.org.br/www/python')
+    local('{};cd {};make html'.format(
+        env.virtual_environment, env.current_release))
 
 
 def rollback():
@@ -85,8 +86,6 @@ def checkout():
     local('cd {0}; git clone -q -b {1} -o deploy --depth 1 {2} {3}'.format(
         env.releases_path, env.git_branch, env.git_origin,
         env.current_release))
-    local('ln -nfs {0}/fabfile.py {1}/'.format(
-        env.current_release, env.deploy_path))
 
 
 def releases():
