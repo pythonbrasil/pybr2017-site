@@ -1,94 +1,112 @@
-from fabric.api import *
-import fabric.contrib.project as project
-import os
-import shutil
-import sys
-import SocketServer
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-from pelican.server import ComplexHTTPRequestHandler
+# Copyright (C) 2016, cloudez Adm. Sis. SA. <hello@cloudez.io>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# On Debian systems, you can find the full text of the license in
+# /usr/share/common-licenses/GPL-2
 
-# Local path configuration (can be absolute or relative to fabfile)
-env.deploy_path = 'output'
-DEPLOY_PATH = env.deploy_path
+import time
 
-# Remote server configuration
-production = 'root@localhost:22'
-dest_path = '/var/www'
+from fabric.api import env, local, puts
 
-# Rackspace Cloud Files configuration settings
-env.cloudfiles_username = 'my_rackspace_username'
-env.cloudfiles_api_key = 'my_rackspace_api_key'
-env.cloudfiles_container = 'my_cloudfiles_container'
 
-# Github Pages configuration
-env.github_pages_branch = "gh-pages"
+#
+# available environments
+#
+def production():
+    env.user = 'pythonbrasil'
+    env.deploy_path = '/srv/2017.pythonbrasil.org.br/www'
+    env.current_path = '/srv/2017.pythonbrasil.org.br/www/current'
+    env.releases_path = '/srv/2017.pythonbrasil.org.br/www/releases'
+    env.releases_limit = 3
+    env.git_origin = 'https://github.com/pythonbrasil/pythonbrasil13-site.git'
+    env.git_branch = 'master'
+#
+# end available environments
+#
 
-# Port for `serve`
-PORT = 8000
 
-def clean():
-    """Remove generated files"""
-    if os.path.isdir(DEPLOY_PATH):
-        shutil.rmtree(DEPLOY_PATH)
-        os.makedirs(DEPLOY_PATH)
+#
+# available commands
+#
+def deploy():
+    start = time.time()
 
-def build():
-    """Build local version of site"""
-    local('pelican -s pelicanconf.py')
+    setup()
+    checkout()
+    releases()
+    symlink()
+    cleanup()
 
-def rebuild():
-    """`clean` then `build`"""
-    clean()
-    build()
+    final = time.time()
+    puts('execution finished in %.2fs' % (final - start))
 
-def regenerate():
-    """Automatically regenerate site upon file modification"""
-    local('pelican -r -s pelicanconf.py')
 
-def serve():
-    """Serve site at http://localhost:8000/"""
-    os.chdir(env.deploy_path)
+def rollback():
+    start = time.time()
 
-    class AddressReuseTCPServer(SocketServer.TCPServer):
-        allow_reuse_address = True
+    setup()
+    releases()
+    rollback_code()
 
-    server = AddressReuseTCPServer(('', PORT), ComplexHTTPRequestHandler)
+    final = time.time()
+    puts('execution finished in %.2fs' % (final - start))
+#
+# end available commands
+#
 
-    sys.stderr.write('Serving on port {0} ...\n'.format(PORT))
-    server.serve_forever()
 
-def reserve():
-    """`build`, then `serve`"""
-    build()
-    serve()
+#
+# internal commands
+#
+def setup():
+    local('mkdir -p {}'.format(env.deploy_path))
+    local('mkdir -p {}/releases'.format(env.deploy_path))
 
-def preview():
-    """Build production version of site"""
-    local('pelican -s publishconf.py')
 
-def cf_upload():
-    """Publish to Rackspace Cloud Files"""
-    rebuild()
-    with lcd(DEPLOY_PATH):
-        local('swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-              '-U {cloudfiles_username} '
-              '-K {cloudfiles_api_key} '
-              'upload -c {cloudfiles_container} .'.format(**env))
+def checkout():
+    env.current_release = '{0}/{1:.0f}'.format(env.releases_path, time.time())
+    local('cd {0}; git clone -q -b {1} -o deploy --depth 1 {2} {3}'.format(
+        env.releases_path, env.git_branch, env.git_origin,
+        env.current_release))
 
-@hosts(production)
-def publish():
-    """Publish to production via rsync"""
-    local('pelican -s publishconf.py')
-    project.rsync_project(
-        remote_dir=dest_path,
-        exclude=".DS_Store",
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-        delete=True,
-        extra_opts='-c',
-    )
 
-def gh_pages():
-    """Publish to GitHub Pages"""
-    rebuild()
-    local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
-    local("git push origin {github_pages_branch}".format(**env))
+def releases():
+    env.releases = sorted(
+        local('ls -x {}'.format(env.releases_path), capture=True).split())
+
+
+def symlink():
+    local('ln -nfs {0} {1}'.format(env.current_release, env.current_path))
+
+
+def cleanup():
+    if len(env.releases) > env.releases_limit:
+        directories = env.releases
+        directories.reverse()
+        del directories[:env.releases_limit]
+        env.directories = ' '.join(['{0}/{1}'.format(
+            env.releases_path, release) for release in directories])
+        local('rm -rf {}'.format(env.directories))
+
+
+def rollback_code():
+    if len(env.releases) > 1:
+        env.current_release = env.releases[-1]
+        env.previous_revision = env.releases[-2]
+        env.current_release = '{0}/{1}'.format(
+            env.releases_path, env.current_revision)
+        env.previous_release = '{0}/{1}'.format(
+            env.releases_path, env.previous_revision)
+        command = 'rm {0}; ln -s {1} {0} && rm -rf {2}'
+        local(command.format(
+            env.current_path, env.previous_release, env.current_release))
+#
+# end internal commands
+#
