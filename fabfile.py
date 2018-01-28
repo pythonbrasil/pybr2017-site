@@ -85,6 +85,8 @@ def checkout():
     local('cd {0}; git clone -q -b {1} -o deploy --depth 1 {2} {3}'.format(
         env.releases_path, env.git_branch, env.git_origin,
         env.current_release))
+    local('ln -s {0}/fabfile.py {1}/'.format(
+        env.current_release, env.deploy_path))
 
 
 def releases():
