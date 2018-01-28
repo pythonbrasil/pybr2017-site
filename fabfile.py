@@ -40,12 +40,17 @@ def deploy():
 
     setup()
     checkout()
+    run_pelican()
     releases()
     symlink()
     cleanup()
 
     final = time.time()
     puts('deploy execution finished in %.2fs' % (final - start))
+
+
+def run_pelican():
+    local('workon pelican;cd {};make html'.format(env.current_release))
 
 
 def rollback():
