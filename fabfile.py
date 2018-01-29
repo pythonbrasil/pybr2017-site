@@ -27,7 +27,7 @@ def production():
     env.releases_limit = 3
     env.git_origin = 'https://github.com/pythonbrasil/pythonbrasil13-site.git'
     env.git_branch = 'master'
-    env.virtual_environment = 'source /srv/2017.pythonbrasil.org.br/activate'
+    env.virtual_environment = '/srv/2017.pythonbrasil.org.br/activate'
 #
 # end available environments
 #
@@ -55,7 +55,7 @@ def deploy():
 def run_pelican():
     local('echo $USER > /srv/2017.pythonbrasil.org.br/www/user')
     local('python --version > /srv/2017.pythonbrasil.org.br/www/python')
-    local('{};cd {};make html'.format(
+    local('. {} && cd {} && make html'.format(
         env.virtual_environment, env.current_release))
 
 
