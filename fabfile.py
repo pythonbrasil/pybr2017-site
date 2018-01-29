@@ -41,9 +41,7 @@ def deploy():
 
     setup()
     checkout()
-    puts('start pelican')
     run_pelican()
-    puts('end pelican')
     releases()
     symlink()
     cleanup()
