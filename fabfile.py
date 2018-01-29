@@ -24,7 +24,7 @@ def production():
     env.deploy_path = '/srv/2017.pythonbrasil.org.br/www'
     env.current_path = '/srv/2017.pythonbrasil.org.br/www/current'
     env.releases_path = '/srv/2017.pythonbrasil.org.br/www/releases'
-    env.releases_limit = 3
+    env.releases_limit = 2
     env.git_origin = 'https://github.com/pythonbrasil/pythonbrasil13-site.git'
     env.git_branch = 'master'
     env.virtual_environment = '/srv/2017.pythonbrasil.org.br/activate'
