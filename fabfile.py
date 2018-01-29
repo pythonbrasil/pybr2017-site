@@ -53,6 +53,8 @@ def deploy():
 def run_pelican():
     local('. {} && cd {} && make html'.format(
         env.virtual_environment, env.current_release))
+    local('ln -nfs {}/fabfile.py {}/output'.format(
+        env.current_release, env.current_release))
 
 
 def rollback():
