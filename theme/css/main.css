@@ -1,18 +1,6 @@
-@font-face {
-  font-family: "Panton Bold";
-  src: url("../fonts/Panton-BlackCaps.otf"); }
-@font-face {
-  font-family: "Panton Bold Italic";
-  src: url("../fonts/Panton-BlackitalicCaps.otf"); }
-@font-face {
-  font-family: "Panton Light";
-  src: url("../fonts/Panton-LightCaps.otf"); }
-@font-face {
-  font-family: "Panton Light Italic";
-  src: url("../fonts/Panton-LightitalicCaps.otf"); }
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
-  font-family: "Panton Bold"; }
+  font-family: "Helvetica", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff; }
@@ -46,21 +34,9 @@ a {
 a:hover {
   text-decoration: underline; }
 
-@font-face {
-  font-family: "Panton Bold";
-  src: url("../fonts/Panton-BlackCaps.otf"); }
-@font-face {
-  font-family: "Panton Bold Italic";
-  src: url("../fonts/Panton-BlackitalicCaps.otf"); }
-@font-face {
-  font-family: "Panton Light";
-  src: url("../fonts/Panton-LightCaps.otf"); }
-@font-face {
-  font-family: "Panton Light Italic";
-  src: url("../fonts/Panton-LightitalicCaps.otf"); }
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
-  font-family: "Panton Bold"; }
+  font-family: "Helvetica", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff; }
@@ -171,7 +147,7 @@ a:hover {
   line-height: 40px;
   white-space: nowrap;
   border-radius: 3px;
-  font-family: "Panton Bold";
+  font-family: "Helvetica", sans-serif;
   font-size: .875em;
   color: #fff;
   background-color: #F0CB1F;
@@ -224,9 +200,9 @@ a:hover {
         margin-right: .5em; }
       .welcome .header .logo span {
         font-size: .55em;
-        font-family: "Panton Light"; }
+        font-family: "Helvetica", sans-serif; }
         .welcome .header .logo span strong {
-          font-family: "Panton Bold"; }
+          font-family: "Helvetica", sans-serif; }
     .welcome .header .menu {
       float: right;
       text-align: left; }
@@ -240,7 +216,7 @@ a:hover {
           display: inline-block; }
           .welcome .header .menu .list .item .item-link {
             display: inline-block;
-            font-family: "Panton Bold";
+            font-family: "Helvetica", sans-serif;
             color: #fff;
             text-decoration: none;
             margin: 1em; }
@@ -288,14 +264,14 @@ a:hover {
     padding: 8em 0 4em 0; }
     .welcome .info h1 {
       font-size: 3.5em;
-      font-family: "Panton Light"; }
+      font-family: "Helvetica", sans-serif;
     .welcome .info h2 {
       font-size: 2em;
       margin-top: 2em; }
     .welcome .info h3 {
       font-size: 1em; }
     .welcome .info p {
-      font-family: "Panton Light";
+      font-family: "Helvetica", sans-serif;
       margin: .5em 0 2em 0; }
 
 .about {
@@ -356,7 +332,7 @@ a:hover {
         text-decoration: none; }
       .speakers .speakers-list .speaker .speaker-name {
         color: #333;
-        font-family: "Panton Light Italic";
+        font-family: "Helvetica", sans-serif;
         margin: 30px 0 15px 0; }
       .speakers .speakers-list .speaker .speaker-description {
         color: #333; }
@@ -393,7 +369,7 @@ a:hover {
     margin: 15px 0; }
   .location .link {
     color: #fff;
-    font-family: "Panton Light"; }
+    font-family: "Helvetica", sans-serif; }
   .location .booking {
     padding: 1em 8em;
     font-size: .8em; }
@@ -437,7 +413,7 @@ a:hover {
       .schedule .days .list .item .item-link {
         display: inline-block;
         text-decoration: none;
-        font-family: "Panton Bold";
+        font-family: "Helvetica", sans-serif;
         padding: 1em;
         color: #333; }
         .schedule .days .list .item .item-link:hover, .schedule .days .list .item .item-link.active {
@@ -492,7 +468,7 @@ a:hover {
         background-color: white; }
       .schedule .room .lecture time {
         color: #333;
-        font-family: "Panton Bold"; }
+        font-family: "Helvetica", sans-serif; }
       .schedule .room .lecture .hour {
         margin-bottom: 1em; }
       .schedule .room .lecture .track {
@@ -530,7 +506,7 @@ a:hover {
         background-color: #777; }
       .schedule .room .lecture .talk {
         color: #1D8BF6;
-        font-family: "Panton Light";
+        font-family: "Helvetica", sans-serif;
         padding-bottom: 0px; }
       .schedule .room .lecture .speaker {
         font-family: "Helvetica", sans-serif;
@@ -543,7 +519,7 @@ a:hover {
   background-color: #f2f2f2;
   padding: 4em 0; }
   .sponsors h1 {
-    font-family: "Panton Light";
+    font-family: "Helvetica", sans-serif;
     text-align: center;
     color: #333; }
   .sponsors .sponsors-list {
@@ -561,7 +537,7 @@ a:hover {
       margin: 15px;
       width: calc(25% - 30px); }
       .sponsors .sponsors-list .item .category {
-        font-family: "Panton Light";
+        font-family: "Helvetica", sans-serif;
         color: #333; }
       .sponsors .sponsors-list .item .imgs {
         padding-top: 25px; }
